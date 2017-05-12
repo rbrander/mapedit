@@ -1,5 +1,12 @@
 // app.js -- all javascript logic for mapedit
 
+/*
+TODO:
+- add a ruler
+- add grid lines to toggle
+- flood fill
+*/
+
 var canvas, ctx, startTime;
 var mouseX, mouseY, mouseGridX, mouseGridY, mouseClickX, mouseClickY;
 var currTileOffsetX, currTileOffsetY;
